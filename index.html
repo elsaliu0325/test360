@@ -13,8 +13,18 @@
     <script src="js/three.min.js"></script>
     <title>360test</title>
 </head>
-
 <body>
+        <div id="theta-viewer"></div>
+        <script>
+      /*global jQuery */
+      (function ($) {
+          'use strict';
+          // #theta-viewerにパノラマ画像img/R0010035.JPGを表示
+          $("#theta-viewer").createThetaViewer('images/R0010035.JPG');
+      }(jQuery));
+        </script>
+      </body>
+<!-- <body>
     <h1>test 360-2</h1>
     <div id="pic"></div>
 
@@ -30,6 +40,6 @@
     </script>
 
 
-</body>
+</body> -->
 
 </html>
