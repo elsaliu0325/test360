@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zn-TW">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,17 +13,23 @@
     <script src="js/three.min.js"></script>
     <title>360test</title>
 </head>
+
 <body>
     <h1>test 360-2</h1>
     <div id="pic"></div>
 
     <script>
-(function($){
-    'use strict';
-    $("#pic").creatThetaViewer('images/R0010035.JPG');
-}(jQuery));
+        // (function($){
+        //     'use strict';
+        //     $("#pic").creatThetaViewer('images/R0010035.JPG');
+        // }(jQuery));
+        (function ($) {
+            'use strict';
+            $("#pic").createThetaViewer('images/R0010035.JPG');
+        }(jQuery));
     </script>
 
-    
+
 </body>
+
 </html>
